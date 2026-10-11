@@ -1,0 +1,312 @@
+.filter-controls-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #5f6a8d;
+}
+
+.filter-divider {
+  width: 1px;
+  height: 32px;
+  background-color: #d9dfe8;
+}
+
+.view-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.view-actions .view-type-grid,
+.view-actions .view-type-list {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid #d8dee9;
+  background-color: #f4f5f9;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+}
+
+.view-actions .view-type-grid.active,
+.view-actions .view-type-list.active {
+  border-color: #f5ab2f;
+  background-color: #fff5e1;
+}
+
+.view-actions .view-type-grid {
+  background-image: url("../../img/icons/grid.svg");
+}
+
+.view-actions .view-type-grid.active {
+  background-image: url("../../img/icons/grid-hover.svg");
+}
+
+.view-actions .view-type-list {
+  background-image: url("../../img/icons/list.svg");
+}
+
+.view-actions .view-type-list.active {
+  background-image: url("../../img/icons/list-hover.svg");
+}
+
+.dropdown-sort .dropdown-toggle {
+  min-width: auto;
+}
+
+.card-grid-style-1.card-list-view {
+  display: flex;
+  gap: 1.5rem;
+  align-items: stretch;
+  padding: 1.25rem;
+  border-radius: 18px;
+  border: 1px solid #eef0f5;
+  background-color: #ffffff;
+}
+
+.card-grid-style-1.card-list-view .image-box {
+  flex: 0 0 35%;
+}
+
+.card-grid-style-1.card-list-view .image-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.card-grid-style-1.card-list-view .card-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.trending-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.trending-card {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #eef0f5;
+}
+
+.trending-card:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.trending-card__thumb {
+  flex: 0 0 auto;
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.trending-card__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.trending-card__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.trending-card__title {
+  display: block;
+  font-weight: 600;
+  color: #1a2654;
+  margin-bottom: 0.25rem;
+}
+
+.trending-card__meta {
+  font-size: 0.75rem;
+  color: #7d889f;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.blog-big-title-link:hover .blog-big-title,
+.blog-big-title-link:focus .blog-big-title {
+  color: #0BA9ED !important;
+}
+
+.banner-right {
+    border-radius: 4px;
+    display: inline-block;
+    width: 100%;
+    height: 670px;
+    background: url(../../img/blog/bg-topsell.png) no-repeat 0px 0px;
+    background-size: cover;
+    padding: 50px 10px;
+}
+.banner-right .text-no {
+    background-color: #0BA9ED;
+    border-radius: 13px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 23px;
+    display: inline-block;
+    padding: 0px 16px;
+}
+.banner-right .text-desc {
+    font-size: 22px;
+    line-height: 32px;
+    color: #425A8B !important;
+}
+
+
+
+
+.tag-dot {
+    border-radius: 4px;
+    padding: 5px 5px 5px 20px;
+    display: inline-block;
+    background: #D5DFE4 url(../../img/icons/circle.svg) no-repeat 10px 11px;
+    color: #425A8B;
+}
+.box-author {
+    display: flex;
+    align-items: center;
+}
+.box-author .img-author {
+    width: auto;
+    align-items: center;
+    display: flex;
+}
+.box-author .img-author img {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.image-feature {
+    display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.image-feature img {
+    border-radius: 4px;
+}
+.content-text p {
+    color: #0E224D;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.image-single {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.border-bottom-4 {
+    border-bottom: 4px solid #DDE4F0;
+    position: relative;
+}
+.btn.btn-tags {
+    background-color: #ffffff;
+    border: 1px solid #8C9EC5;
+    padding: 7px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #425A8B;
+    font-weight: bold;
+}
+.btn.btn-tags:hover {
+    background-color: #425A8B;
+    color: #ffffff !important;
+}
+.share-link {
+    display: flex;
+    align-items: center;
+}
+.facebook {
+    background: url(../../img/blog/fb.svg) no-repeat center;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-right: 7px;
+}
+.printest {
+    background: url(../../img/blog/printest.svg) no-repeat center;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-right: 7px;
+}
+.twitter {
+    background: url(../../img/blog/tw.svg) no-repeat center;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-right: 7px;
+}
+.instagram {
+    background: url(../../img/blog/ins.svg) no-repeat center;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-right: 7px;
+}
+.comment-box .comment-item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.comment-box .comment-item .top-comment {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.comment-box .comment-item .top-comment .image-author {
+    min-width: 75px;
+    max-width: 75px;
+    margin-right: 15px;
+}
+.comment-box .comment-item .top-comment .image-author img {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+.comment-box .comment-item .top-comment .author-name {
+    width: 100%;
+}
+.comment-box .comment-item .top-comment .author-name .info-author {
+    width: 100%;
+}
+.comment-box .comment-item .top-comment .author-name .info-author span {
+    display: inline-block;
+    margin-right: 10px;
+}
+.comment-box .comment-item .comment-content {
+    width: 100%;
+    padding-left: 90px;
+    color: #0E224D;
+}
+.form-group {
+    margin-bottom: 15px;
+}
